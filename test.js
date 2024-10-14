@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  fetch('https://yourdomain.com/data.json')
+  fetch('https://skvidos.github.io/Referee/test.json')
     .then(response => response.json())
     .then(data => {
       const userDataDiv = document.getElementById('user-data');
